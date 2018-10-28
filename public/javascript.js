@@ -1,7 +1,7 @@
 var socket;
 var textID = 'textbox';
 
-socket = io.connect('https://cryptic-scrubland-20094.herokuapp.com');
+socket = io.connect('localhost:8080');
 
 socket.on('content', get);
 
